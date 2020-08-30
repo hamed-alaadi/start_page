@@ -8,7 +8,7 @@ body {
     background-color: #000000;
     box-sizing: border-box;
     position: absolute;
-    top: 25%;
+    top: 30%;
     transform: translateY(-50%);
 }
 h1 {
@@ -19,7 +19,7 @@ h2 {
     color: #000000;
     font-size: 35px;
     position: relative;
-    top: 250px;
+    top: 300px;
 }
 a {
     line-height: 1.7;
@@ -41,19 +41,19 @@ a:hover {
 .shit, .College, .dev {
     display: inline-block;
     background-color: #1b232b;
-    margin-top:100px;
+    margin-top:90px;
     margin-bottom:10px;
     margin-left:10px;
     margin-right:10px;
-    padding-top:30px;
-    padding-bottom:90px;
-    padding-left:70px;
-    padding-right:70px;
+    padding-top:20px;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
     border: 3px solid #9b9b9b;  
     transition: border-radius 0.3s, background-color 0.3s;
 }
 .shit:hover, .College:hover, .dev:hover {
-    border: 2px solid rgb(238, 238, 238);
+    border: 3px solid rgb(238, 238, 238);
     box-shadow: 0px 0px 8px 8px #1a2229;
     background-color: #1a2732;
     border-radius: 10px;
@@ -64,8 +64,8 @@ input {
     width: 700px;
     text-align: center;
     height: 50px;
-    font-size: 20px;
-    border: 3px solid #9b9b9b;
+    font-size: 13.5px;
+    border: 0px solid #9b9b9b;
     outline: none;
 }
 input:focus::placeholder {
@@ -104,8 +104,8 @@ button:hover {
     border-bottom-left-radius: 5px;
 }
 #se_icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 .filter-white {
     filter: invert(1);
