@@ -1,4 +1,3 @@
-// Big thanks to u/Teiem1 from reddit for refactoring the old code!
 
 // Change this to your liking
 var username = "hamed";
@@ -45,10 +44,6 @@ function displayTime(time)
 const determineGreet = hours => document.getElementById("greeting").innerText = `Good ${hours < 12 ? "Morning," : hours < 18 ? "Afternoon," : "Evening,"} ${username}!`;
 
 const search_engines = [{
-  src: "ddg.svg",
-  placeholder: "DuckDuckGo",
-  action: "https://www.duckduckgo.com/"
-}, {
   src: "goog.svg",
   placeholder: "Google",
   action: "https://www.google.com/search?q="
