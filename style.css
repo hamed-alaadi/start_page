@@ -96,7 +96,7 @@ button:hover {
     height: 50px;
     color: #1b232b;
     border: none;
-    vertical-align: middle;
+    vertical-align: bottom;
     transition: background-color 0.3s, border-radius 0.3s; 
 }
 .se_btn:hover {
